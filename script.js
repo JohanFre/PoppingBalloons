@@ -12,7 +12,7 @@ document.addEventListener("mouseover", (event) => {
  
 // Counts so when all balloons are popped. Clears balloons and "YAY!" message appears        
         if (poppedCount === 24) {
-            const balloons = document.querySelector(".balloons");
+            const balloons = document.querySelector(".wrapper");
 
             balloons.innerHTML = ""; //Clears all ballons
 
